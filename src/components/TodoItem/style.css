@@ -1,0 +1,28 @@
+.todo {
+    padding: 2px;
+    font-size: 18px;
+    color: #233646;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px;
+    margin-left: 12%;
+}
+
+.todo button {
+    font-size: 15px;
+    background-color:#ececec ;
+  }
+
+.todo button:hover {
+    background-color: #5a8e74;
+    color: white;
+  }
+  
+.complete {
+    text-decoration: line-through;
+}

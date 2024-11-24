@@ -1,0 +1,50 @@
+.app {
+  background: #c7c2c2;
+  padding: 30px;
+  height: 90vh;
+  position: absolute;
+  width: 450px;
+  /* margin: -388px -250px; */
+  left: 50%;
+  top: 50%;
+  color: #312e42;
+  box-shadow: 0px 0px 5px 0px #888;
+  background-image: repeating-linear-gradient(
+        white 0px,
+        white 24px,
+        steelblue 25px
+    );
+  background-position: 0px 75px;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #616887;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.todo-list {
+  padding: 5px;
+  max-width: 400px;
+  margin-left: 11%;
+}
+.todo-list::before {
+  content: "";
+  position: absolute;
+  height: 90vh;
+  padding: auto;
+  left: 15%;
+  top: 5%;
+  width: 1px;
+  background-color: rgb(254, 2, 2);
+}
+
+form {
+  /* margin-top: 20px; 
+  text-align: center; 
+  position: relative; */
+  left: 60%;
+}
