@@ -4,33 +4,31 @@
   height: 90vh;
   position: absolute;
   width: 450px;
-  /* margin: -388px -250px; */
   left: 50%;
   top: 50%;
-  color: #312e42;
-  box-shadow: 0px 0px 5px 0px #888;
+  box-shadow: 0px 0px 5px 0px #becbe5;
   background-image: repeating-linear-gradient(
         white 0px,
         white 24px,
         steelblue 25px
     );
-  background-position: 0px 75px;
+  background-size: 100% 2em; /* adjusting size of the lines */
   transform: translate(-50%, -50%);
 }
 
 body {
-  background-color: #616887;
-}
-
-h1 {
-  font-style: italic;
+  background-color: #8cada2;
 }
 
 .todo-list {
-  padding: 5px;
+  padding: 9px;
   max-width: 400px;
   margin-left: 11%;
+  font-style: italic;
+  color: #312e42;
 }
+
+/* Style the red line for the notebook */
 .todo-list::before {
   content: "";
   position: absolute;
@@ -40,11 +38,4 @@ h1 {
   top: 5%;
   width: 1px;
   background-color: rgb(254, 2, 2);
-}
-
-form {
-  /* margin-top: 20px; 
-  text-align: center; 
-  position: relative; */
-  left: 60%;
 }
