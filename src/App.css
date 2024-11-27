@@ -3,10 +3,10 @@
   padding: 30px;
   height: 90vh;
   position: absolute;
-  width: 450px;
+  width: 500px;
   left: 50%;
   top: 50%;
-  box-shadow: 0px 0px 5px 0px #becbe5;
+  box-shadow: 0px 0px 5px 0px #a1a5ac;
   background-image: repeating-linear-gradient(
         white 0px,
         white 24px,
@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #8cada2;
+  background-color: #535c85;
 }
 
 .todo-list {
@@ -39,3 +39,9 @@ body {
   width: 1px;
   background-color: rgb(254, 2, 2);
 }
+
+.todo-container {
+  margin-left: 12%;
+}
+
+/* remember to assign the color next time!! */

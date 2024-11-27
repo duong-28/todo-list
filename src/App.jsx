@@ -6,13 +6,13 @@ import './App.css'
 function App() {
   const [todos, setTodos] = useState([
     {
-      text: "Go to bed",
+      text: "Go to bed 🛏️",
       isCompleted: false,
     },{
-      text: "Book brunch",
+      text: "Book brunch 🍳",
       isCompleted: false,
     },{
-      text: "Puppy time",
+      text: "Puppy time 🐶",
       isCompleted: false,
     }
   ]);
@@ -30,13 +30,16 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="todo-list">Lucie's To-do list</h1>
-      {todos.map((todo, index) => (
-        <TodoItem todo={todo} key={index} index={index} completeTodo={completeTodo} />
-      ))}
-      <TodoForm className="todo-form" addTodo = {addTodo} />
+      <h1 className="todo-list">Lucie's To-do List</h1>
+      <div className="todo-container">
+        {todos.map((todo, index) => (
+            <TodoItem todo={todo} key={index} index={index} completeTodo={completeTodo} />
+          ))}
+          <TodoForm className="todo-form" addTodo = {addTodo} />
+      </div>
     </div>
   );
 }
 
 export default App;
+

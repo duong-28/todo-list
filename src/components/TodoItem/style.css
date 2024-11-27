@@ -8,13 +8,11 @@
     justify-content: space-between;
     max-width: 350px;
     width: 100%;
-    margin-left: 12%;
 }
 
 .todo button {
     font-size: 15px;
-    background-color:#ececec ;
-  }
+}
 
 .todo button:hover {
     background-color: #5a8e74;
@@ -27,3 +25,5 @@
     opacity: 0.6;
     transition: opacity 0.5s ease;
 }
+
+
